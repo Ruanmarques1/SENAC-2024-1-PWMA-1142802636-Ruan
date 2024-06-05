@@ -1,0 +1,150 @@
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+header, footer {
+    background-color:#0057a8;
+    color: #fcfcfc;
+    padding: 10px;
+    text-align: center;
+}
+.container {
+    margin: 250px auto;
+    width: 80%;
+    max-width: 600px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 30%;
+    
+}
+input[type="text"] {
+    width: calc(50% - 5px);
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#buscarbtn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+header nav {
+    background-color: #faebd7;
+    padding: 10px ;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin:  10px;
+}
+
+header nav ul li,a {
+    color: #222222;
+    text-decoration: none;
+    padding:  10px;
+}
+
+header nav ul li a:hover {
+    background-color: #847878;
+    border-radius: 5px;
+}
+
+#formulario {
+
+display: flex;
+gap: 10px;
+align-items: center;
+}
+
+
+  
+  #formContainer {
+    width: 500px;
+    margin: 40px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #h1ficha {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #formularioCadastro {
+    width: 100%;
+  }
+  
+  input[type="text"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="text"]::-webkit-input-placeholder {
+    color: #ccc;
+  }
+  
+  input[type="text"]::-moz-placeholder {
+    color: #ccc;
+  }
+  
+  input[type="text"]:-ms-input-placeholder {
+    color: #ccc;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #ccc;
+  }
+  
+  #btenviar {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #btenviar:hover {
+    background-color: #3e8e41;
+  }
+  
+  label {
+    font-size: 14px;
+  }
+
+  #listaFichas{
+    margin: 250px auto;
+    width: 80%;
+    max-width: 600px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 30%;
+  }
+  
